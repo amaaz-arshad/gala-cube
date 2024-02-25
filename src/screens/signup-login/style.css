@@ -1,0 +1,97 @@
+.left-col,
+.right-col {
+  width: 50%;
+}
+
+@media screen and (max-width: 1024px) {
+  .right-col {
+    display: none;
+  }
+
+  .left-col {
+    width: 100%;
+  }
+}
+
+.signup-section {
+  padding: 40px 14%;
+}
+
+.textbox {
+  margin-bottom: 18px;
+  padding: 15px !important;
+  background-color: #f6f6f8 !important;
+  border-radius: 10px !important;
+}
+
+.tabs {
+  padding: 4px !important;
+  background-color: #f6f6f8 !important;
+  border-radius: 10px !important;
+  margin-bottom: 18px;
+}
+
+.tab-active {
+  cursor: pointer;
+  font-size: 1.1rem;
+  width: 50%;
+  text-align: center;
+  color: white;
+  font-weight: 600;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #49dd83;
+  transition: 0.2s ease-in-out;
+}
+
+.tab-inactive {
+  cursor: pointer;
+  color: #49dd83;
+  font-weight: 600;
+  font-size: 1.1rem;
+  width: 50%;
+  text-align: center;
+  padding: 10px;
+  border-radius: 8px;
+  transition: 0.2s ease-in-out;
+}
+
+.signup-btn {
+  width: 45% !important;
+  margin: auto;
+  background-color: #49dd83 !important;
+  color: white !important;
+  font-weight: bold !important;
+  font-size: 1.1rem !important;
+  height: 55px;
+  border-radius: 10px !important;
+}
+
+.btn-div {
+  justify-content: space-between;
+}
+
+.google-btn,
+.fb-btn {
+  padding: 10px !important;
+  background-color: #f6f6f8 !important;
+  color: gray !important;
+  cursor: pointer;
+  font-weight: 600 !important;
+  font-size: 1.1rem !important;
+}
+
+.google-btn:hover {
+  background-color: #e84133 !important;
+  color: white !important;
+}
+
+.fb-btn:hover {
+  background-color: #0f66fc !important;
+  color: white !important;
+}
+
+.login-link {
+  color: #49dd83;
+  font-weight: 600;
+}
