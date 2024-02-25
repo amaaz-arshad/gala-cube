@@ -1,7 +1,7 @@
 .landing-page {
   padding: 40px 7%;
   height: 88vh;
-  background-color: "#f6f6f8";
+  background-color: #f6f6f8;
 }
 
 @media screen and (max-width: 1024px) {
