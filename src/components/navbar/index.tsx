@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./style.css";
 import { Link } from "react-router-dom";
+import logo from '../../assests/images/logo.png'
 
 export default function Navbar() {
   const [clicked, setClicked] = useState(false);
@@ -9,7 +10,7 @@ export default function Navbar() {
     <>
       <nav className="sticky-top">
         <Link to="/" className="logoname">
-          <span>GalaCube</span>
+          <img src={logo} width="40px" /> <span>GalaCube</span>
         </Link>
 
         <div>
